@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<div id="login_header">
+		    <div id="login_area">		          
+		           <div id="login_logo"></div>		           
+		           <div id="login_way_namea"></div>
+		           <div id="login_way_nameb"></div>
+		           <div id="phone_enter"></div>
+		           <div id="verification_code_enter"></div>		           
+		           <div id="login_hint">未注册宇日天账号的手机号，将自动注册</div>
+		           <div id="login_button"></div>
+		    </div>
+		</div>
+		<script type="text/javascript">
+		var time = window.setInterval(function(){
+			if(document.getElementById("myprogress").value < 100)
+				document.getElementById("myprogress").value = 
+					document.getElementById("myprogress").value + 6
+		},100);
+	</script>
+			<!--状态指示条-->
+		<progress id="myprogress" value="13" max="100"></progress>
+	</body>
+</html>

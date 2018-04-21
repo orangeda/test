@@ -1,0 +1,39 @@
+body{
+	background-color:rgba(0,0,0,0.2) ;
+	z-index: 1000;
+}
+#close{
+	right:28px;
+	top:22px;
+	position: absolute;
+}
+#close a{
+	text-decoration: none;
+}
+#food_table{
+	height:576px;
+	width:1125px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+#food_picture{
+	top:47px;
+	left:50px;
+	position: absolute;
+	width:432px;
+	height: 432px;
+	border: 1px solid #A52A2A;
+}
+#text_list{
+	top:47px;
+	right:50px;
+	position: absolute;
+	width:540px;
+	height: 432px;
+	border: 1px solid #A52A2A;
+}

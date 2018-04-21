@@ -1,0 +1,46 @@
+#shopfood_banner{
+	width:100%;
+	height:238px;
+	background-color: bisque;
+}
+#shopfood_search{
+	width:auto;
+	height:74px;
+	background-color: #00FFFF;
+}
+#shopfood_search_devision{
+	width:auto;
+	height:26px;
+}
+#shopfood_content{
+	margin:0 auto;
+	width: 1476px;
+}
+#shopfood_tag_list{
+	float: left;
+	width:1106px;
+	height:112px;
+	background-color: bisque;
+}
+#shopfood_tag_devision{
+	float: left;
+	width:1106px;
+	height:76px;
+}
+#shopfood_food_list{
+	float: left;
+	width:1106px;
+	background-color: bisque;
+}
+#shopfood_right_notice{
+	top: 0;
+	float:right;
+	width:348px;
+	height:226px;
+	background-color: bisque;
+}
+#shopfood_content_clear{
+	height: 0px;
+	font-size:0 ;
+	clear: both;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+			<script type="text/javascript">
+		var time = window.setInterval(function(){
+			if(document.getElementById("myprogress").value < 100)
+				document.getElementById("myprogress").value = 
+					document.getElementById("myprogress").value + 6
+		},100);
+	</script>
+	<!--状态指示条-->
+		<progress id="myprogress" value="13" max="100"></progress>
+				<input type="text" list="input_list" />
+		<!--数据列表+搜索分词-->
+		<datalist id="input_list">
+			<option value="搜索内容1"></option>
+			<option value="搜索内容2"></option>
+			<option value="搜索内容3"></option>
+			<option value="搜索内容4"></option>
+		</datalist>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+	height: auto !important;
+	background-color: rgba(240,133,37);
+}
+#header{
+	margin: 0 auto;
+	width: 1498px;
+	height: 619px;
+	background-color: rgba(255,255,255);
+	border:1px dotted rgba(0,0,0,0);
+}
+#left_logo{
+	float: left;
+	margin-left:214px ;
+	margin-top:30px ;
+	width: 270px;
+	height: 30px;
+	background-color: brown;
+}
+#right_login{
+	float: right;
+	margin-right:198px ;
+	margin-top:46px ;
+	width: 240px;
+	height:30px;
+	background-color: brown;
+}
+#middle_logo{
+	margin:217px auto;
+	margin-bottom: 0;
+	width: 430px;
+	height:60px;
+	background-color: brown;
+}
+#search{
+	margin:100px auto;
+	width: 642px;
+	height:74px;
+	background-color: brown;
+}
+
+#bottom{
+	width: 1498px;
+	height: 369px;
+	background-color: rgb(240,133,37,0.2);
+	border:1px dashed rgb(0,0,0,0);
+}
+#adver{
+	margin:0 auto;
+	margin-top:78px;
+	width:1190px;
+	height:214px;
+	background-color: white;
+}

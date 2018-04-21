@@ -1,0 +1,63 @@
+body{
+	height: auto !important;
+	background-color: rgba(247,247,247);
+}
+#home_top_order_header{
+	margin: 0 auto;
+	width: 1508px;
+	height: 75px;
+	background-color: rgba(240,133,37);
+	border:1px dotted rgba(0,0,0,0);
+}
+#bottom{
+	width:1508px ;
+	height:750px;
+	background-color:gainsboro ;
+	border:1px dotted rgba(0,0,0,0);
+}
+#bottom_order_list{
+	width: 1010px;
+	height: 680px;
+	background-color: white;
+}
+/*#middle_list{
+	margin: 5px auto;
+	width:1250px ;
+	height:150px;
+	background-color: rgba(255,255,255);
+	border:1px solid rgb(230,230,230);
+}
+#middle_devision{
+	width:1250px ;
+	height:15px;
+}
+/*#bottom_list{
+	margin: 2px auto;
+	width:1250px ;
+	height:auto;
+	background-color: rgba(255,255,255);
+	border:1px solid rgb(230,230,230);
+}
+#food_list li,ul{
+	list-style: none;
+	padding-left:0 ;
+	margin: 0;
+}
+/*.food_imgblock{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box; 
+	width:25%;
+	height: 140px;
+	border: 1px solid aqua;
+	float:left;
+	cursor: pointer;
+	width: 500px;
+	height: 100px;
+	float: left;
+	cursor: pointer;
+	border: 2px dotted black;
+}
+.clear{ 
+	height:0px;font-size:0;clear:both;
+}
