@@ -13,48 +13,51 @@ body{
     margin-top:0px;
     width:365px;
     height:710px;
-    background-color: rgb(0,0,0,0.1);
-    border: 1px grey solid;
+    background-color: white;
 }    
 #login_logo{position: relative;
             top:150px;
             left: 92.5px;
          	height:69px;
             width:180px;
-            background-color: rgba(255,255,255)}
+            background-color: white}
 #login_way_namea{position: relative;
             top:170px;
             left: 80px;
               height: 35px;
               width:75px;
-              background-color: rgba(255,255,255,0.5);
+              background-color:white;
+              border-bottom: 5px solid orange;
+           
               }
              
 #login_way_nameb{position: relative;
-            top:135px;
+            top:112px;
             left: 210px;                       
          	  height:35px;
               width:75px;
-              background-color: rgba(255,255,255,0.5)}
+              background-color:white;
+              border-bottom: 5px solid orange;}
                                      
 #phone_enter{position: relative;
             top:  170px;
-         	  
-         	  height:60px;
+         	  border-radius: 8px;
+         	  height:58px;
               width:365px;
-              background-color: rgba(255,255,255,0.5);}
+              background-color:white;}
               
          
 #verification_code_enter{position: relative;
             top:  185px;
-         	  height:60px;
+         	  height:58px;
+         	  border-radius: 8px;
               width:365px;
-         	  background-color: rgba(255,255,255,0.5);}              
+         	  background-color:white;}              
 #login_hint{position: relative;
             top:195px;
          	  height:60px;
               width:365px;
-              background-color: rgba(255,255,255,0.5);}
+              background-color: white;}
               
 #login_button{position: relative;
             top:205px;
@@ -62,3 +65,43 @@ body{
             width:365px;
             background-color: rgba(240,133,37,0.8);}
             
+.big_logo_title{
+	color: dodgerblue;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 60px;
+	font-size: 40px;
+}
+.tip_tpye1{
+	color: black;
+	font-family: "华文细黑";
+	text-align: center;
+	font-size:large;
+}
+
+.border_type1{
+	color:orange;
+}
+
+input{
+	width: 361px;
+	height: 60px;
+	z-index: 1;
+	border-radius: 8px;
+}
+button{
+	position: absolute;
+	right: 2px;
+	top: 4px;
+	z-index: 2;
+	width: 80px;
+	height: 59px;
+	color: white;
+	border: 1px;
+	border-radius: 8px;
+}
+
+section{
+	
+}
+

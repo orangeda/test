@@ -7,24 +7,42 @@
 	</head>
 	<body>
 		<div id="login_header">
-		    <div id="login_area">		          
-		           <div id="login_logo"></div>		           
-		           <div id="login_way_namea"></div>
-		           <div id="login_way_nameb"></div>
-		           <div id="phone_enter"></div>
-		           <div id="verification_code_enter"></div>		           
-		           <div id="login_hint">未注册宇日天账号的手机号，将自动注册</div>
-		           <div id="login_button"></div>
+		    <div id="login_area">
+		     
+		           <div id="login_logo">
+		           	<p class="big_logo_title"><b>达达美食</b></p>
+		           </div>		           
+		           <div  id="login_way_namea" class="tip_tpye1">
+		           	<p style="color: orange;" class="tip_tpye1"><b>短信登录</b></p>
+		           </div>
+		           <div id="login_way_nameb" class="tip_tpye1">
+		           	<p style="color: rgba(0,0,0,0.6)" class="tip_tpye1"><b>密码登录</b></p>
+		           </div>
+		           
+		           <div id="phone_enter">
+		           	
+		           		<input type="text" placeholder="请输入手机号" >
+		           		<button>获取验证码</button>
+		           	
+		           	
+		           </div>
+		           <div id="verification_code_enter">
+		           	<input type="text" placeholder="请输入验证码">
+		           </div>		           
+		           <div id="login_hint">
+		           	<span style="color: grey;">未注册宇日天账号的手机号，将自动注册</span>
+		           </div>
+		           <button style="color: white;" id="login_button" class="tip_tpye1">登录</button>
 		    </div>
 		</div>
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 		var time = window.setInterval(function(){
 			if(document.getElementById("myprogress").value < 100)
 				document.getElementById("myprogress").value = 
 					document.getElementById("myprogress").value + 6
 		},100);
 	</script>
-			<!--状态指示条-->
-		<progress id="myprogress" value="13" max="100"></progress>
+			
+		<progress id="myprogress" value="13" max="100"></progress>-->
 	</body>
 </html>
